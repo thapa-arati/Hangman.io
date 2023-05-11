@@ -1,0 +1,99 @@
+body {
+  background: url('https://i.imgur.com/0kjRprK.jpg') no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Helvetica', sans-serif;
+}
+
+main {
+  max-width: 610px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#word {
+  font-size: 36px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 30px;
+}
+
+#guesses {
+  font-size: 24px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.guess {
+  padding: 10px;
+  display: inline-block;
+  border: 2px solid rgb(255, 255, 153);
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: rgb(255, 255, 153);
+}
+
+.win {
+  color: #ffffff;
+  background-color: green;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+.loss {
+  color: #ffffff;
+  background-color: red;
+  font-size: 36px;
+  margin-top: 30px;
+}
+
+#guessBox {
+  height: 60px;
+  border-radius: 10px;
+  padding-top: 5px;
+  font-size: 36px;
+  width: 300px;
+  padding-left: 10px;
+  margin-top: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #666;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 30px;
+}
+
+.button:hover {
+  background-color: rgba(224, 224, 139, 0.5);
+}
+
+.button:active {
+  background-color: rgba(224, 224, 139, 0.5);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
